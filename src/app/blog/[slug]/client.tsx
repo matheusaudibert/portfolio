@@ -35,7 +35,7 @@ export default function BlogPostClient({ post }: { post: BlogPost }) {
           >
             <path d="m15 18-6-6 6-6" />
           </svg>
-          go back
+          go back home
         </button>
 
         {/* Post metadata */}
