@@ -368,7 +368,7 @@ export default function Home() {
               </a>
               ), and I&apos;m currently building my own SaaS,{" "}
               <a
-                href="https://discord.gg/programador"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "rgba(232, 242, 88, 0.85)", textDecoration: "none" }}
