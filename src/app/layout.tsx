@@ -17,14 +17,14 @@ export const metadata: Metadata = {
   ),
   openGraph: {
     title: "Matheus Audibert",
-    description: "Intern Software Engineer.",
-    images: [{ url: "/preview.png" }],
+    description: "Intern Software Engineer",
+    images: [{ url: "https://i.postimg.cc/QxNf6tMw/preview.png" }],
   },
   twitter: {
     card: "summary_large_image",
     title: "Matheus Audibert",
-    description: "Intern Software Engineer.",
-    images: ["/preview.png"],
+    description: "Intern Software Engineer",
+    images: ["https://i.postimg.cc/QxNf6tMw/preview.png"],
   },
 };
 
