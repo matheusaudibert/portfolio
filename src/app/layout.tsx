@@ -10,7 +10,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Matheus Audibert",
   description:
-    "Software Engineer focused on building scalable cloud-native systems and data-driven internal products.",
+    "Intern Software Engineer.",
 };
 
 export default function RootLayout({

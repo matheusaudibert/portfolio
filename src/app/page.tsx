@@ -369,7 +369,6 @@ export default function Home() {
               ), and I&apos;m currently building my own SaaS,{" "}
               <a
                 href=""
-                target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "rgba(232, 242, 88, 0.85)", textDecoration: "none" }}
                 onMouseEnter={(e) => (e.currentTarget.style.textDecoration = "underline")}
