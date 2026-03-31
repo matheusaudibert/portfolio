@@ -9,8 +9,23 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Matheus Audibert",
-  description:
-    "Intern Software Engineer.",
+  description: "Intern Software Engineer.",
+  metadataBase: new URL(
+    process.env.VERCEL_URL
+      ? `https://${process.env.VERCEL_URL}`
+      : "http://localhost:3000"
+  ),
+  openGraph: {
+    title: "Matheus Audibert",
+    description: "Intern Software Engineer.",
+    images: [{ url: "/preview.png" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Matheus Audibert",
+    description: "Intern Software Engineer.",
+    images: ["/preview.png"],
+  },
 };
 
 export default function RootLayout({

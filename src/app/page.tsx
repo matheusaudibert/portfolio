@@ -312,7 +312,8 @@ export default function Home() {
                 ))}
               </div>
             </div>
-            <span
+            <a
+              href="/"
               style={{
                 position: "relative",
                 display: "flex",
@@ -321,6 +322,7 @@ export default function Home() {
                 borderRadius: "12px",
                 width: "112px",
                 height: "112px",
+                cursor: "pointer",
               }}
             >
               {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -334,7 +336,7 @@ export default function Home() {
                 src={PERSON.avatar}
                 alt={PERSON.name}
               />
-            </span>
+            </a>
           </header>
 
           {/* ── About ── */}
@@ -370,7 +372,7 @@ export default function Home() {
               <a
                 href=""
                 rel="noopener noreferrer"
-                style={{ color: "rgba(232, 242, 88, 0.85)", textDecoration: "none" }}
+                style={{ color: "rgba(88, 242, 165, 0.85)", textDecoration: "none" }}
                 onMouseEnter={(e) => (e.currentTarget.style.textDecoration = "underline")}
                 onMouseLeave={(e) => (e.currentTarget.style.textDecoration = "none")}
               >
