@@ -54,7 +54,7 @@ const PERSON = {
     { label: "Email", href: "mailto:contact.audibert@gmail.com", icon: <Mail size={16} /> },
     { label: "GitHub", href: "https://github.com/matheusaudibert", icon: <GithubIcon size={16} /> },
     { label: "LinkedIn", href: "https://linkedin.com/in/matheusaudibert", icon: <LinkedinIcon size={16} /> },
-    { label: "Instagram", href: "https://instagram.com/matheusaudibert", icon: <InstagramIcon size={16} /> },
+    { label: "Instagram", href: "https://instagram.com/tlvzaudibert", icon: <InstagramIcon size={16} /> },
     { label: "X / Twitter", href: "https://x.com/audibosta", icon: <XIcon size={16} /> },
     { label: "YouTube", href: "https://www.youtube.com/@audibert", icon: <YoutubeIcon size={16} /> },
   ],
