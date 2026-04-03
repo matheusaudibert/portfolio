@@ -9,6 +9,8 @@ date: "2026-03-31"
 
 ## This is a just test.
 
+*Italic*, **Bold**, ~~Strikethrough~~
+
 This is a code block:
 
 ```python
