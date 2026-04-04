@@ -99,7 +99,7 @@ const PROJECTS = [
     title: "Commitly",
     description: "A web-based tool that easly generates commits for your GitHub profile.",
     tags: ["GitHub", "Next.js", "MongoDB"],
-    href: "https://commitly.shardweb.app/",
+    href: "https://commitly.audibert.dev/",
   },
 ];
 
